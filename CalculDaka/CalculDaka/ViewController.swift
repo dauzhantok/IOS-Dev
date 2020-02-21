@@ -9,14 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+    let backg = UIImageView()
     var numberOnSreen:Double=0;
     let model = Calculator()
     var can=true;
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setBackg()
         // Do any additional setup after loading the view.
+    }
+    func setBackg(){
+        view.addSubview(backg)
+        backg.translatesAutoresizingMaskIntoConstraints=false
+        backg.topAnchor.constraint(equalTo: view.topAnchor).isActive=true
+        backg.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive=true
+        backg.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive=true
+        backg.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive=true
+        
     }
     @IBOutlet weak var label: UILabel!
     
