@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DaDaYa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="iBt-8o-sUF">
+                                <rect key="frame" x="-100" y="-56" width="614" height="1018"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="d2E-vY-83K">
+                                        <rect key="frame" x="0.0" y="0.0" width="614" height="509"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ziy-g5-pdv">
+                                                <rect key="frame" x="0.0" y="0.0" width="307" height="509"/>
+                                                <state key="normal" title=" "/>
+                                                <connections>
+                                                    <action selector="Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Spi-IL-Wes"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qx5-fP-Hl7">
+                                                <rect key="frame" x="307" y="0.0" width="307" height="509"/>
+                                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <state key="normal" title=" "/>
+                                                <connections>
+                                                    <action selector="Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Epb-v2-tBc"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fAX-9k-RtW">
+                                        <rect key="frame" x="0.0" y="509" width="614" height="509"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMb-An-1Zy">
+                                                <rect key="frame" x="0.0" y="0.0" width="307" height="509"/>
+                                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <state key="normal" title=" "/>
+                                                <connections>
+                                                    <action selector="Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d4Z-0x-SRk"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yea-d0-PWc">
+                                                <rect key="frame" x="307" y="0.0" width="307" height="509"/>
+                                                <connections>
+                                                    <action selector="Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TTM-tu-Z1O"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iBt-8o-sUF" secondAttribute="trailing" constant="-100" id="Ecb-ij-dne"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iBt-8o-sUF" secondAttribute="bottom" constant="-100" id="EhV-WU-zBG"/>
+                            <constraint firstItem="iBt-8o-sUF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-100" id="fOf-eu-kJt"/>
+                            <constraint firstItem="iBt-8o-sUF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="-100" id="haz-4F-Sp5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
+        </scene>
+        <!--Sel View-->
+        <scene sceneID="B06-48-ftp">
+            <objects>
+                <viewController storyboardIdentifier="select" id="hfM-eP-XlS" customClass="SelView" customModule="DaDaYa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="deh-o5-Aip">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fCJ-HC-8Fn">
+                                <rect key="frame" x="100" y="144" width="214" height="618"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdz-pY-Mpl">
+                                        <rect key="frame" x="0.0" y="0.0" width="214" height="309"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="RED">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="ColButton:" destination="hfM-eP-XlS" eventType="touchUpInside" id="cVe-sj-pIR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d64-GT-TV8">
+                                        <rect key="frame" x="0.0" y="309" width="214" height="309"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="BLUE">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="ColButton:" destination="hfM-eP-XlS" eventType="touchUpInside" id="fTz-b9-1IQ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Qs5-bL-Rp6" firstAttribute="trailing" secondItem="fCJ-HC-8Fn" secondAttribute="trailing" constant="100" id="a2K-7q-t6G"/>
+                            <constraint firstItem="fCJ-HC-8Fn" firstAttribute="leading" secondItem="Qs5-bL-Rp6" secondAttribute="leading" constant="100" id="cZb-F8-u41"/>
+                            <constraint firstItem="fCJ-HC-8Fn" firstAttribute="top" secondItem="Qs5-bL-Rp6" secondAttribute="top" constant="100" id="cbZ-FC-gg7"/>
+                            <constraint firstItem="Qs5-bL-Rp6" firstAttribute="bottom" secondItem="fCJ-HC-8Fn" secondAttribute="bottom" constant="100" id="q01-9B-6qT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Qs5-bL-Rp6"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y0G-RX-X3t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="887" y="141"/>
+        </scene>
+    </scenes>
+</document>
